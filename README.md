@@ -12,8 +12,8 @@ python version 3.0+
 e.g. When you have a script file like this and you want to convert all the SQL keywords(*select*, *from*, *group by*, etc.) into uppercase:
 
 > select count(1) as myCount  
-    from TableE te  
-    group by te.someColumn  
+    from TableA ta  
+    group by ta.someColumn  
     having count(myId) > 5
 
 **Output:**
